@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trang chủ</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Loading bootstrap css-->
+    <link type="text/css" rel="stylesheet" href="./assets/css/jquery-ui-1.10.4.custom.min.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/jquery-1.10.2.min.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="header">
+     <div class="navbar-header pull-left">
+        <a href="/" class="navbar-brand">
+            <small>
+                <i class="fa fa-leaf"></i>
+                Mobifone
+            </small>
+        </a>
+    </div>
+
+      <ul class="nav ace-nav menu-function">
+	    <li>
+            <div class="dropdown">
+                <a href="user_manager.html" class="btn" >Quản lý người dùng</a>
+            </div>
+        </li>
+        <li>
+             <div class="dropdown">
+			    <a href="camp_manager.html" class="btn" >Quản lý quảng cáo</a>
+            </div>
+        </li>
+       <li>
+            <div class="dropdown">
+                <a href="contract_manager.html" class="btn" >Quản lý hợp đồng</a>
+            </div>
+        </li>
+        <li>
+           <div class="dropdown">
+                <p class="btn dropdown-toggle"  data-toggle="dropdown">Quản lý video
+                    <span class="caret"></span></p>
+                <ul class="dropdown-menu">
+                    <li><a href="videocategory_manager.html">Quản lý danh mục video</a></li>
+                    <li><a href="video_manager.html">Quản lý video</a></li>
+                </ul>
+            </div>
+        </li>
+		 <li>
+            <div class="dropdown">
+                <p class="btn dropdown-toggle"  data-toggle="dropdown">Thống kê data
+                    <span class="caret"></span></p>
+                <ul class="dropdown-menu">
+                    <li><a href="sale_zone_statistic.html">Thống kê theo sale zone</a></li>
+                    <li><a href="saler_group_statistic.html">Thống kê theo sale group</a></li>
+                    <li><a href="saler_statistic.html">Thống kê theo saler</a></li>
+                    <li><a href="campain_statistic.html">Thống kê theo chiến dịch</a></li>
+					<li><a href="qc_statistic.html">Thống kê theo quảng cáo</a></li>
+                </ul>
+            </div>
+        </li>
+		 <li>
+            <div class="dropdown">
+                <p class="btn dropdown-toggle" data-toggle="dropdown">Quản lý báo cáo
+                    <span class="caret"></span></p>
+                <ul class="dropdown-menu">
+                    <li><a href="sale_zone_report.html">Báo cáo theo sale zone</a></li>
+                    <li><a href="sale_group_report.html">Báo cáo theo sale group</a></li>
+                    <li><a href="saler_report.html">Báo cáo theo saler</a></li>
+					<li><a href="advertiser_report.html">Báo cáo theo advertiser</a></li>
+                    <li><a href="campain_report.html">Báo cáo theo chiến dịch</a></li>
+					<li><a href="campain_report (advertiser).html">Báo cáo theo chiến dịch (advertiser)</a></li>
+					<li><a href="qc_report.html">Báo cáo theo quảng cáo</a></li>
+					<li><a href="qc_detail_report.html">Báo cáo chi tiết quảng cáo</a></li>
+					<li><a href="all_report.html">Báo cáo all</a></li>
+                </ul>
+            </div>
+        </li>
+		<li>
+            <div class="dropdown">
+                <p class="btn dropdown-toggle"  data-toggle="dropdown">Quản lý nạp tiền
+                    <span class="caret"></span></p>
+                <ul class="dropdown-menu">
+                   <li><a href="money_recharge.html">Nạp tiền</a></li>
+                    <li><a href="money_budget_change.html">Theo dõi biến động tài khoản</a></li>
+                </ul>
+            </div>
+        </li>
+		<li>
+            <div class="dropdown">
+                <p class="btn dropdown-toggle"  data-toggle="dropdown">Chuyên mục khác
+                    <span class="caret"></span></p>
+                <ul class="dropdown-menu">
+                   <li><a href="support.html">Hỗ trợ khách hàng</a></li>
+                    <li><a href="price_unit_manager.html">Quản lý đơn giá</a></li>
+                    <li><a href="config.html">Quản lý cấu hình</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <ul class="nav ace-nav">
+        <li class="light-blue dropdown-modal">
+            <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                <i class="glyphicon glyphicon-user"></i>
+                <span class="user-info">
+									<small>Xin chào,</small>
+									admin
+								</span>
+
+                <i class="ace-icon fa fa-caret-down"></i>
+            </a>
+
+            <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                <li>
+                    <a href="user_detail.html">
+                        <i class="ace-icon fa fa-info-circle"></i>
+                        Thông tin cá nhân
+                    </a>
+                </li>
+				 <li>
+                    <a href="money_recharge_history(advertiser).html">
+                        <i class="ace-icon fa fa-info-circle"></i>
+                        Lịch sử nạp tiền
+                    </a>
+                </li>
+				 <li>
+                    <a href="money_transaction_history(advertiser).html">
+                        <i class="ace-icon fa fa-info-circle"></i>
+                        Lịch sử giao dịch
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="http://report.mobicaz.com/logout">
+                        <i class="ace-icon fa fa-power-off"></i>
+                        Đăng xuất
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
+
+</body>
+</html>
+<script>
+</script>
